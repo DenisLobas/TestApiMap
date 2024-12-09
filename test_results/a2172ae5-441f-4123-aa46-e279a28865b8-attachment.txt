@@ -1,0 +1,37 @@
+Метод POST
+https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+{"status":"OK","place_id":"2e9ba78ee8427bb4a050027431e8b0a5","scope":"APP","reference":"f64ed619636568a437b73379963c25a4f64ed619636568a437b73379963c25a4","id":"f64ed619636568a437b73379963c25a4"}
+Успешно, статус код = 200
+Все поля пресутствуют!
+Значение полей верно: status
+Метод GET POST
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=2e9ba78ee8427bb4a050027431e8b0a5
+{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"29, side layout, cohen 09","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Успешно, статус код = 200
+Все поля пресутствуют!
+Значение полей верно: address
+Метод PUT
+https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123&place_id=2e9ba78ee8427bb4a050027431e8b0a5
+{"msg":"Address successfully updated"}
+Успешно, статус код = 200
+Все поля пресутствуют!
+Значение полей верно: msg
+Метод GET PUT
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=2e9ba78ee8427bb4a050027431e8b0a5
+{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"Scotland Yard","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Успешно, статус код = 200
+Все поля пресутствуют!
+Значение полей верно: address
+Метод DELETE
+https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=2e9ba78ee8427bb4a050027431e8b0a5
+{"status":"OK"}
+Успешно, статус код = 200
+Все поля пресутствуют!
+Значение полей верно: status
+Метод GET DELETE
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=2e9ba78ee8427bb4a050027431e8b0a5
+{"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Успешно, статус код = 404
+Все поля пресутствуют!
+Значение полей верно: msg
+Тестирование: создания, изменения и удаления новой локации. Успешно завершон
